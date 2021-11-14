@@ -13,7 +13,7 @@ const Carrito = ({ carrito, setCarrito }) => {
 
     return (
         <div>
-            <Button variant="primary">prueba del maldito gitingore parte 3</Button>
+            <Button variant="primary">prueba del maldito gitingore parte 4</Button>
             <h1 className=" text-center  mt-5 mb-5">Mi carrito</h1>
             <Container>
                 <Table striped bordered hover>
