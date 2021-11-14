@@ -5,23 +5,23 @@ import Badge from "react-bootstrap/Badge";
 const CardFooter = ({id, price, category, isLoggedIn, productos, carrito, setCarrito}) => {
     
     const AddProducto = (e) => {
-       const productoAgregar =  productos.find ((p) => p.id === e.target.id);
-       const productoAgregado = carrito.find((p) => p.id === productoAgregar.id)
+       const productoAgregar =  productos.find ((p) => p.id == e.target.id);
+       const productoAgregado = carrito.find((p) => p.id == productoAgregar.id)
        if (productoAgregado){
-
+            // producto agregado  
            productoAgregado.cantidad ++;
            productoAgregado.total =
             productoAgregado.price * productoAgregado.cantidad;
            setCarrito([...carrito]);
 
-       }else{
+       }else{ // producto  no agregado
 
            const producto = {
                id: productoAgregar.id, 
                nombre: productoAgregar.title, 
                cantidad:1, precio: productoAgregar.price, 
                total: productoAgregar.price
-            }
+            };
             setCarrito([...carrito, producto]);
        }
     };
