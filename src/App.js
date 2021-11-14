@@ -26,7 +26,7 @@ function App() {
       isLoggedIn={logged} 
       login={setLogged}
       cantCarrito={carrito.reduce(
-        (total, producto) => total + producto.cantidad,0)} />
+        (total, producto) => total+producto.cantidad,0)} />
       <Switch>
         <Route path="/" exact>
           <Home 
@@ -36,7 +36,7 @@ function App() {
           />
         </Route>
         <Route path="/Carrito" exact>
-          <Carrito carrito = {carrito}/>
+          <Carrito carrito = {carrito} setCarrito={setCarrito}/>
         </Route>
         <Redirect to="/" />
       </Switch>
