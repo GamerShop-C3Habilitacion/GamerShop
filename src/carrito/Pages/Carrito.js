@@ -13,6 +13,7 @@ const Carrito = ({ carrito, setCarrito }) => {
 
     return (
         <div>
+            <Button variant="primary">hola</Button>
             <h1 className=" text-center  mt-5 mb-5">Mi carrito</h1>
             <Container>
                 <Table striped bordered hover>
