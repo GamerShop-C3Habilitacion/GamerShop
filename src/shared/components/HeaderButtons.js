@@ -21,7 +21,7 @@ const HeaderButtons = ({ isLoggedIn, setLogin, cantCarrito }) => {
             <React.Fragment>
                 <Link to="/crearProducto">
                     <Button variant="primary" className="me-3">
-                        Crear Producto
+                        Registro de  Producto
                     </Button>
                 </Link>
                 <Link to="/Carrito">
