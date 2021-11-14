@@ -39,7 +39,7 @@ function App() {
         <Route path="/Carrito" exact>
           <Carrito carrito = {carrito} setCarrito={setCarrito}/>
         </Route>
-        <Route path="/CrearProducto">
+        <Route path="/CrearProductos">
           <CrearProducto/>
         </Route>
         <Redirect to="/" />

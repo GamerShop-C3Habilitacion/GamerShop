@@ -1,6 +1,6 @@
 const CrearProducto = () =>{
     return (
-        <h1>holaaaaaa</h1>
+        <h1>holaaaaaaaaaaaaa</h1>
     );
 }
 
