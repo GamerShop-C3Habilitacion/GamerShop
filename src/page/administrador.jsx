@@ -1,11 +1,12 @@
 import React from 'react'
+import GestorVenta from '../componetes/GestorVenta'
 
-const administrador = () => {
+const Administrador = () => {
     return (
         <div>
-            
+            <GestorVenta />
         </div>
     )
 }
 
-export default administrador
+export default Administrador
