@@ -6,7 +6,7 @@ const Carrito = ({ carrito, setCarrito }) => {
 
     const popProduct = (e) => {
         const productoEliminar = e.target.id;
-        const carritoSinProducto = carrito.filter((p) => p.id != productoEliminar);
+        const carritoSinProducto = carrito.filter((p) => p.id !== productoEliminar);
         setCarrito([...carritoSinProducto]);
 
     }
