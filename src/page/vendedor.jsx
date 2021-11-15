@@ -1,11 +1,12 @@
 import React from 'react'
+import GestorVenta from '../componetes/GestorVenta'
 
-const vendedor = () => {
+const Vendedor = () => {
     return (
         <div>
-            
+            <GestorVenta />
         </div>
     )
 }
 
-export default vendedor
+export default Vendedor
