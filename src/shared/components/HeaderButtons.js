@@ -19,7 +19,12 @@ const HeaderButtons = ({ isLoggedIn, setLogin, cantCarrito }) => {
     if (isLoggedIn) {
         return (
             <React.Fragment>
-                <Link to="/crearProducto">
+                      <Link to="-/Venta">
+                    <Button variant="primary" className="me-3">
+                        venta
+                    </Button>
+                </Link>
+                <Link to="/CrearProducto">
                     <Button variant="primary" className="me-3">
                         Crear Producto
                     </Button>
@@ -32,6 +37,7 @@ const HeaderButtons = ({ isLoggedIn, setLogin, cantCarrito }) => {
                 <Button variant="outline-light" onClick={logout}>
                     Logout
                 </Button>
+          
             </React.Fragment>
         );
     } else {

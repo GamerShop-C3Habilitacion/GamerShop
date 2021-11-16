@@ -6,7 +6,7 @@ const Header = ({isLoggedIn, login, cantCarrito}) => {
     return (
         <Navbar  bg="primary" variant="dark">
             <Container>
-                <Navbar.Brand href="/">GamerShop</Navbar.Brand>
+                <Navbar.Brand href="/">  Gestor de Ventas GamerShop</Navbar.Brand>
                 <Nav className="justify-content-end">
                     <HeaderButtons 
                     isLoggedIn={isLoggedIn} 

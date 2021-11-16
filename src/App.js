@@ -15,6 +15,7 @@ import Home from "./home/pages/Home";
 import Carrito from "./carrito/Pages/Carrito";
 import Header from './shared/Header';
 import CrearProducto from './gestion_productos/pages/CrearProducto';
+import Venta from './componetes/Venta';
 
 function App() {
 
@@ -39,8 +40,11 @@ function App() {
         <Route path="/Carrito" exact>
           <Carrito carrito = {carrito} setCarrito={setCarrito}/>
         </Route>
-        <Route path="/CrearProductos">
+        <Route path="/CrearProducto">
           <CrearProducto/>
+        </Route>
+        <Route path="/Venta">
+          <Venta/>
         </Route>
         <Redirect to="/" />
       </Switch>
