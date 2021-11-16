@@ -15,8 +15,7 @@ import Home from "./home/pages/Home";
 import Carrito from "./carrito/Pages/Carrito";
 import Header from './shared/Header';
 import CrearProducto from './gestion_productos/pages/CrearProducto';
-import Login from './login/pages/Login';
-
+import Venta from './componetes/Venta';
 
 function App() {
 
@@ -31,9 +30,6 @@ function App() {
       cantCarrito={carrito.reduce(
         (total, producto) => total+producto.cantidad,0)} />
       <Switch>
-        <Route>
-          <Login/>
-        </Route>
         <Route path="/" exact>
           <Home 
           isLoggedIn={logged}
@@ -46,6 +42,9 @@ function App() {
         </Route>
         <Route path="/CrearProducto">
           <CrearProducto/>
+        </Route>
+        <Route path="/Venta">
+          <Venta/>
         </Route>
         <Redirect to="/" />
       </Switch>

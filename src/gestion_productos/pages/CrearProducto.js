@@ -1,4 +1,4 @@
-import { Form, FloatingLabel, Container } from 'react-bootstrap';
+import { Form, FloatingLabel, Container, Button } from 'react-bootstrap';
 
 const CrearProducto = () => {
     return (
@@ -31,6 +31,8 @@ const CrearProducto = () => {
                 <Form.Label>Descripción</Form.Label>
                 <Form.Control as="textarea" rows={3} />
             </Form.Group>
+
+            <Button variant="primary">Guardar</Button>
 
 
 
