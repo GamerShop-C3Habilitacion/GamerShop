@@ -79,4 +79,4 @@ const venta = () => {
     )
 }
 
-export default producto
+export default Producto
