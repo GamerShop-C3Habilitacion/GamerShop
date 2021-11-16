@@ -1,12 +1,10 @@
 import React from 'react'
 import { Container, FloatingLabel, Form, Row, Col, Button } from 'react-bootstrap';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 
 const Venta = () => {
     return (
         <div>
             <Container>
-
                 <Row className="justify-content-md-center">
                     <Col>
                     <>
