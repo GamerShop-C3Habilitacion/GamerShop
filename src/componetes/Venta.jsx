@@ -50,10 +50,10 @@ const Venta = () => {
                         className="mb-3"
                         >
                         <Form.Control placeholder="Nombre del Vendedor" />
+                        </FloatingLabel>
                         <Button variant="primary my-3" type="submit">
                             Registrar venta
                         </Button>
-                        </FloatingLabel>
                     </>
                     </Col>
                 </Row>
