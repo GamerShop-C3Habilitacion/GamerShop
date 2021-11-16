@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, FloatingLabel, Form, Row, Col, Button } from 'react-bootstrap';
 
-const venta = () => {
+const Producto = () => {
     return (
         <div>
             <Container>
@@ -79,4 +79,4 @@ const venta = () => {
     )
 }
 
-export default producto
+export default Producto
